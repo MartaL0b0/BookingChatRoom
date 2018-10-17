@@ -76,7 +76,7 @@
                                         <!--Text-->
                                         <p class="card-text">Choose the room you want to book based on the current availability. <br> Only for rooms in the same building. 
                                         </p>
-                                        <a href="#RoomChart" class="btn btn-primary btn-md"> Open Room Chart
+                                        <a href="#RoomChart" class="btn btn-primary btn-md" data-toggle="collapse"> Open Room Chart
                                             <i class="fa fa-play ml-2"></i>
                                         </a>
                                     </div>
@@ -108,7 +108,7 @@
                                         <h4 class="card-title">Watson: our booking helper</h4>
                                         <!--Text-->
                                         <p class="card-text">Ask our assistant about your preferences (building, time, capacity...) and he will find the perfect room for you.</p>
-                                        <a href="#Chatbot" class="btn btn-primary btn-md">Ask Watson
+                                        <a href="#Chatbot" class="btn btn-primary btn-md" data-toggle="collapse">Ask Watson
                                             <i class="fa fa-play ml-2"></i>
                                         </a>
                                     </div>
@@ -127,7 +127,7 @@
                     </section>
                     <!--Section: Cards-->
                     
-                    <section id="RoomChart">
+                    <section id="RoomChart" class="collapse" aria-expanded="false">
                         <div class="container">
                             <div class="col-md-12 col-sm-12 mb-4">
                                 <!--Chatbot - Need a lot of JS here? -->
@@ -140,18 +140,18 @@
                                             <!-- Comment -->
                                             <div class="form-group">
                                                 <label for="replyFormComment">What do you want</label>
-                                                <textarea class="form-control" id="replyFormComment" rows="5"></textarea>
+                                                <textarea class="form-control" id="replyFormComment1" rows="5"></textarea>
                                             </div>
                         
                                             <!-- Name -->
                                             <label for="replyFormName">Your name</label>
-                                            <input type="email" id="replyFormName" class="form-control">
+                                            <input type="email" id="replyFormName1" class="form-control">
                         
                                             <br>
                         
                                             <!-- Email -->
                                             <label for="replyFormEmail">Your e-mail</label>
-                                            <input type="email" id="replyFormEmail" class="form-control">
+                                            <input type="email" id="replyFormEmail1" class="form-control">
                         
                         
                                             <div class="text-center mt-4">
@@ -167,7 +167,7 @@
                         </div>
                     </section>
                     
-                    <section id="Chatbot">
+                    <section id="Chatbot" class="collapse" aria-expanded="false">
                         <div class="container">
                             <div class="col-md-12 col-sm-12 mb-4">
                                 <!--Chatbot - Need a lot of JS here? -->
