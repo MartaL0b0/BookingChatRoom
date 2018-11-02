@@ -2,6 +2,15 @@
 <html lang="en">
 
     <head>
+    <script type="text/javascript">
+      function tableBooking(td)
+      {
+        td.innerHTML = 'Booked';
+        td.style.backgroundColor = "#FF6464";
+      }
+    </script>
+    
+    </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -76,7 +85,7 @@
                                         <!--Text-->
                                         <p class="card-text">Choose the room you want to book based on the current availability. <br> Only for rooms in the same building.
                                         </p>
-                                        <a href="#RoomChart" class="btn btn-primary btn-md" data-toggle="collapse"> Open Room Chart
+                                        <a href="#RoomChart" class="btn btn-primary btn-md" data-toggle="collapse" onclick="scrolling(RoomChart)"> Open Room Chart
                                             <i class="fa fa-play ml-2"></i>
                                         </a>
                                     </div>
@@ -108,7 +117,7 @@
                                         <h4 class="card-title">Watson: our booking helper</h4>
                                         <!--Text-->
                                         <p class="card-text">Ask our assistant about your preferences (building, time, capacity...) and he will find the perfect room for you.</p>
-                                        <a href="#Chatbot" class="btn btn-primary btn-md" data-toggle="collapse">Ask Watson
+                                        <a href="#Chatbot" class="btn btn-primary btn-md" data-toggle="collapse" onclick="scrolling(Chatbot)">Ask Watson
                                             <i class="fa fa-play ml-2"></i>
                                         </a>
                                     </div>
@@ -144,78 +153,79 @@
                           <tbody>
                             <tr>
                               <th scope="row">9am</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             <tr>
                               <th scope="row">10am</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             <tr>
                               <th scope="row">11am</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             <tr>
                               <th scope="row">12pm</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             <tr>
                               <th scope="row">1pm</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             <tr>
                               <th scope="row">2pm</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             <tr>
                               <th scope="row">3pm</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             <tr>
                               <th scope="row">4pm</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
+                              <td onclick="tableBooking(this)">Available</td>
                             </tr>
                             </tbody>
                         </table>
+
                       </div>
                     </section>
 
