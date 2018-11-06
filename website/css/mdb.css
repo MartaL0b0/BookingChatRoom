@@ -1496,7 +1496,7 @@ button.bg-light:focus {
 
 .mml-1 {
   margin-left: -0.25rem !important; }
-
+/* 
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
@@ -1525,7 +1525,38 @@ button.bg-light:focus {
   font-family: "Roboto";
   src: url("../font/roboto/Roboto-Bold.eot");
   src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
-  font-weight: 700; }
+  font-weight: 700; } */
+
+
+/*********************
+Roboto font
+**********************/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
+
+@font-face {
+font-family: "Roboto";
+font-weight: 200;
+}
+
+@font-face {
+font-family: "Roboto";
+font-weight: 300;
+}
+
+@font-face {
+font-family: "Roboto";
+font-weight: 400;
+}
+
+@font-face {
+font-family: "Roboto";
+font-weight: 500;
+}
+
+@font-face {
+font-family: "Roboto";
+font-weight: 700;
+}
 
 body {
   font-family: "Roboto", sans-serif;

@@ -16,12 +16,10 @@ const hide = (container) => {
 }
 
 function toggle(current) {
-    console.log("current " + current)
     var other = (current == 'RoomChart') ? 'Chatbot' : 'RoomChart';
-    console.log("other " + other)
     var div1 = document.getElementById(current);
     var div2 = document.getElementById(other);
-    console.log("div1 " + div1 + " div2 " + div2)
+    
     if (div1.style.display == 'block'){
         div1.style.display = 'none';
     } else {
