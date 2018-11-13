@@ -45,6 +45,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+For_inspiration/
 
 # Optional npm cache directory
 .npm
