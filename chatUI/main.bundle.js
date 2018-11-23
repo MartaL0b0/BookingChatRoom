@@ -64,7 +64,7 @@ var AppComponent = (function () {
     function AppComponent() {
         this.message = new __WEBPACK_IMPORTED_MODULE_1__app_models__["a" /* Message */]('', 'assets/images/user.png');
         this.messages = [
-            new __WEBPACK_IMPORTED_MODULE_1__app_models__["a" /* Message */]('Welcome to TCD Room Booking. My name is Boo, what can I help you with?', 'assets/images/bot.png', new Date())
+            new __WEBPACK_IMPORTED_MODULE_1__app_models__["a" /* Message */]('Welcome to TCD Room Booking. How can I help you?', 'assets/images/bot.png', new Date())
         ];
     }
     AppComponent = __decorate([
