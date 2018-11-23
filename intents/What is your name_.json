@@ -1,0 +1,28 @@
+{
+  "id": "32238cfa-a162-4cd6-8e85-b8ebae5f53bf",
+  "name": "What is your name?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "My name is BooBot! I\u0027m less than 1 month old, so sometimes I make mistakes."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542360283,
+  "fallbackIntent": false,
+  "events": []
+}

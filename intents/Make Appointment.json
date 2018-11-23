@@ -1,0 +1,92 @@
+{
+  "id": "bc82a8c7-2741-4716-8943-67df3fea5d96",
+  "name": "Make Appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "27dd2ef8-27e3-4d83-88b5-b1f15a5e69f4",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What day would you like to book for?"
+            },
+            {
+              "lang": "en",
+              "value": "What day suits best?"
+            },
+            {
+              "lang": "en",
+              "value": "What day should I make the booking for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f24ad912-5115-49c8-b31e-a0054b2bbf0c",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time would you like to book for?"
+            },
+            {
+              "lang": "en",
+              "value": "What time suits best?"
+            },
+            {
+              "lang": "en",
+              "value": "What time should I make the booking for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5657c758-8fa6-4fe2-9b01-571880efc6a9",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter a TCD email address."
+            },
+            {
+              "lang": "en",
+              "value": "What is your TCD email address?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542944762,
+  "fallbackIntent": false,
+  "events": []
+}

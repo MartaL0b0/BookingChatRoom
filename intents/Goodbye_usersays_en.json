@@ -1,0 +1,74 @@
+[
+  {
+    "id": "487cf08d-61ae-468a-bf87-8696a7dad0d5",
+    "data": [
+      {
+        "text": "Good night",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541837166
+  },
+  {
+    "id": "81e8628b-37c8-4cc1-93e1-1fb8744ff991",
+    "data": [
+      {
+        "text": "Bye now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541837166
+  },
+  {
+    "id": "38009535-ef1e-4be0-93af-15300d2243f4",
+    "data": [
+      {
+        "text": "Thanks, goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541837166
+  },
+  {
+    "id": "87b72e93-4aae-491d-ab86-31c7ab9dbaac",
+    "data": [
+      {
+        "text": "Bye bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541837166
+  },
+  {
+    "id": "d326c6cd-4ae3-4880-861b-0b6580494871",
+    "data": [
+      {
+        "text": "Goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541837166
+  },
+  {
+    "id": "3325e000-a888-4b26-9546-0d7e6cfc4858",
+    "data": [
+      {
+        "text": "Bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541837166
+  }
+]
