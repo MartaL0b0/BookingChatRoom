@@ -1,4 +1,4 @@
-# CS3BC2 - Team 3 - Chatbot Room Booking
+# EBII1819 -- Chatbot Room Booking -- Team 3
 
 We aimed to modernise the room booking process through the creation of a new system for society room bookings. We created a website where bookings can occur through two different channels: a Grid Booking or an interactive Chatbot. 
 
