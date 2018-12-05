@@ -9,6 +9,6 @@ Our solution can be visited at: https://tcdroombooking.firebaseapp.com
 ## Built With
 
 * [DialogFlow](https://dialogflow.com/) - Chatbot Development
-* [Kommunicate](https://www.kommunicate.io/) - Chatbot Integration
+* [Angular v5](https://angular.io/) - Chatbot Integration UI
 * [Bootstrap](https://getbootstrap.com/) - Web Development
 * [Material Design](https://material.io/design/) - Web Development
